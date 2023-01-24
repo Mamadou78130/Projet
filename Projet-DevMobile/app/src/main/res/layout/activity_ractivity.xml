@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".RActivity">
+
+    <include
+        layout="@layout/buttons"
+        android:layout_width="400dp"
+        android:layout_height="550dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/btn_jouer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="JOUER" />
+
+    <Button
+        android:id="@+id/btnAccueil"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="Retourner à la page d'accueil"
+        android:textColor="#FF0000"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

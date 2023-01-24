@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".Anagramme">
+
+    <TextView
+        android:id="@+id/rp_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/mot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24dp"
+        android:layout_below="@id/rp_info"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ecrit_mot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF0000"
+        android:layout_below="@id/mot"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Mot"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_verifie"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ecrit_mot"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF0000"
+        android:text="Vérifier" />
+
+    <Button
+        android:id="@+id/btn_mot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_verifie"
+        android:textColor="#FF0000"
+        android:text="Nouveau mot" />
+
+    <Button
+        android:id="@+id/btnAccueil"
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:text="Retourner à la page d'accueil"
+        android:textColor="#FF0000"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

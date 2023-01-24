@@ -1,0 +1,90 @@
+.bt_Ajouter_Contact {
+    background: #A4E669;
+}
+
+
+
+.bt_Modifier_Contact {
+    background: #56C5E3;
+}
+
+
+
+.bt_Supprimer_Contact {
+    background: #E69089;
+}
+
+
+
+
+.labelNom {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelPrenom {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelAdresse {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelCp {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelType {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelMail {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.labelNum {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.vbox2 {
+    background-color: white;
+}
+
+.label__Nom {
+    font-size: 15px;
+}
+
+.label__Prenom {
+    font-size: 15px;
+}
+
+.label__Adresse {
+    ffont-size: 15px;
+}
+
+.label__Cp {
+    font-size: 15px;
+}
+
+.label__Type {
+    font-size: 15px;
+}
+
+.label__Mail {
+    font-size: 15px;
+}
+
+.label__Num {
+    font-size: 15px;
+}
+
+.vbox2 {
+    background-color: white;
+}
+
